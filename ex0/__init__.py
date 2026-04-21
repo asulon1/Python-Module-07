@@ -6,10 +6,10 @@
 #  By: asulon <asulon@student.42nice.fr>         +#+  +:+       +#+         #
 #                                              +#+#+#+#+#+   +#+            #
 #  Created: 2026/04/21 11:42:23 by asulon          #+#    #+#               #
-#  Updated: 2026/04/21 11:50:03 by asulon          ###   ########.fr        #
+#  Updated: 2026/04/21 12:10:57 by asulon          ###   ########.fr        #
 #                                                                           #
 # ************************************************************************* #
 
-from .Factory import AquaFactory, FlameFactory
+from .factory import AquaFactory, FlameFactory
 
 __all__ = ["AquaFactory", "FlameFactory"]

@@ -6,12 +6,12 @@
 #  By: asulon <asulon@student.42nice.fr>         +#+  +:+       +#+         #
 #                                              +#+#+#+#+#+   +#+            #
 #  Created: 2026/04/21 11:35:27 by asulon          #+#    #+#               #
-#  Updated: 2026/04/21 11:42:10 by asulon          ###   ########.fr        #
+#  Updated: 2026/04/21 12:11:00 by asulon          ###   ########.fr        #
 #                                                                           #
 # ************************************************************************* #
 
 from abc import ABC, abstractmethod
-from .Creature import Flameling, Aquabub, Torragon, Pyrodon
+from .creature import Flameling, Aquabub, Torragon, Pyrodon
 
 
 class CreatureFactory(ABC):

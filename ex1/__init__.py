@@ -5,13 +5,13 @@
 #                                                  +:+ +:+         +:+      #
 #  By: asulon <asulon@student.42nice.fr>         +#+  +:+       +#+         #
 #                                              +#+#+#+#+#+   +#+            #
-#  Created: 2026/04/21 11:42:23 by asulon          #+#    #+#               #
-#  Updated: 2026/04/22 15:44:23 by asulon          ###   ########.fr        #
+#  Created: 2026/04/21 12:10:05 by asulon          #+#    #+#               #
+#  Updated: 2026/04/22 15:55:48 by asulon          ###   ########.fr        #
 #                                                                           #
 # ************************************************************************* #
 
-from .factory import (AquaFactory as Aqua,
-                      FlameFactory as Flame,
-                      CreatureFactory)
+from .factory import (HealingCreatureFactory as Healing,
+                      TransformCreatureFactory as Transform)
 
-__all__ = ["Aqua", "Flame", "CreatureFactory"]
+
+__all__ = ["Healing", "Transform"]

@@ -6,11 +6,11 @@
 #  By: asulon <asulon@student.42nice.fr>         +#+  +:+       +#+         #
 #                                              +#+#+#+#+#+   +#+            #
 #  Created: 2026/04/21 11:43:06 by asulon          #+#    #+#               #
-#  Updated: 2026/04/21 12:04:33 by asulon          ###   ########.fr        #
+#  Updated: 2026/04/22 15:42:46 by asulon          ###   ########.fr        #
 #                                                                           #
 # ************************************************************************* #
 
-from ex0 import AquaFactory as Aqua, FlameFactory as Flame
+from ex0 import Aqua, Flame
 
 
 def factory_test(factory: Aqua | Flame) -> None:

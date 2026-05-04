@@ -1,27 +1,26 @@
 # ************************************************************************* #
 #                                                                           #
 #                                                      :::      ::::::::    #
-#  Factory.py                                        :+:      :+:    :+:    #
+#  factory.py                                        :+:      :+:    :+:    #
 #                                                  +:+ +:+         +:+      #
-#  By: asulon <asulon@student.42.fr>             +#+  +:+       +#+         #
+#  By: asulon <asulon@student.42nice.fr>         +#+  +:+       +#+         #
 #                                              +#+#+#+#+#+   +#+            #
 #  Created: 2026/04/21 11:35:27 by asulon          #+#    #+#               #
-#  Updated: 2026/05/04 18:56:36 by asulon          ###   ########.fr        #
+#  Updated: 2026/05/04 22:10:37 by asulon          ###   ########.fr        #
 #                                                                           #
 # ************************************************************************* #
 
 from abc import ABC, abstractmethod
-from .Creature import Flameling, Aquabub, Torragon, Pyrodon
-from ex1.creature import Sproutling, Bloomelle, Shiftling, Morphagon
+from .Creature import Flameling, Aquabub, Torragon, Pyrodon, Creature
 
 
 class CreatureFactory(ABC):
     @abstractmethod
-    def create_base(self) -> Flameling | Aquabub | Sproutling | Shiftling:
+    def create_base(self) -> Creature:
         pass
 
     @abstractmethod
-    def create_evolved(self) -> Pyrodon | Torragon | Bloomelle | Morphagon:
+    def create_evolved(self) -> Creature:
         pass
 
 

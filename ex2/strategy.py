@@ -3,15 +3,15 @@
 #                                                      :::      ::::::::    #
 #  strategy.py                                       :+:      :+:    :+:    #
 #                                                  +:+ +:+         +:+      #
-#  By: asulon <asulon@student.42nice.fr>         +#+  +:+       +#+         #
+#  By: asulon <asulon@student.42.fr>             +#+  +:+       +#+         #
 #                                              +#+#+#+#+#+   +#+            #
 #  Created: 2026/04/22 17:29:36 by asulon          #+#    #+#               #
-#  Updated: 2026/04/22 18:17:33 by asulon          ###   ########.fr        #
+#  Updated: 2026/05/04 18:57:08 by asulon          ###   ########.fr        #
 #                                                                           #
 # ************************************************************************* #
 
 from abc import ABC, abstractmethod
-from ex0.creature import Creature
+from ex0.Creature import Creature
 from ex1.capabilities import TransformCapability, HealCapability
 
 

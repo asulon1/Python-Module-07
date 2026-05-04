@@ -1,17 +1,17 @@
 # ************************************************************************* #
 #                                                                           #
 #                                                      :::      ::::::::    #
-#  factory.py                                        :+:      :+:    :+:    #
+#  Factory.py                                        :+:      :+:    :+:    #
 #                                                  +:+ +:+         +:+      #
-#  By: asulon <asulon@student.42nice.fr>         +#+  +:+       +#+         #
+#  By: asulon <asulon@student.42.fr>             +#+  +:+       +#+         #
 #                                              +#+#+#+#+#+   +#+            #
 #  Created: 2026/04/21 11:35:27 by asulon          #+#    #+#               #
-#  Updated: 2026/04/22 20:14:07 by asulon          ###   ########.fr        #
+#  Updated: 2026/05/04 18:56:36 by asulon          ###   ########.fr        #
 #                                                                           #
 # ************************************************************************* #
 
 from abc import ABC, abstractmethod
-from .creature import Flameling, Aquabub, Torragon, Pyrodon
+from .Creature import Flameling, Aquabub, Torragon, Pyrodon
 from ex1.creature import Sproutling, Bloomelle, Shiftling, Morphagon
 
 

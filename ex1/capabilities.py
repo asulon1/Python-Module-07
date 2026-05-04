@@ -3,15 +3,15 @@
 #                                                      :::      ::::::::    #
 #  capabilities.py                                   :+:      :+:    :+:    #
 #                                                  +:+ +:+         +:+      #
-#  By: asulon <asulon@student.42nice.fr>         +#+  +:+       +#+         #
+#  By: asulon <asulon@student.42.fr>             +#+  +:+       +#+         #
 #                                              +#+#+#+#+#+   +#+            #
 #  Created: 2026/04/21 12:11:58 by asulon          #+#    #+#               #
-#  Updated: 2026/04/22 18:10:11 by asulon          ###   ########.fr        #
+#  Updated: 2026/05/04 18:56:57 by asulon          ###   ########.fr        #
 #                                                                           #
 # ************************************************************************* #
 
 from abc import ABC, abstractmethod
-from ex0.creature import Creature
+from ex0.Creature import Creature
 
 
 class HealCapability(ABC):

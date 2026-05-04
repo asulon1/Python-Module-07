@@ -3,14 +3,14 @@
 #                                                      :::      ::::::::    #
 #  creature.py                                       :+:      :+:    :+:    #
 #                                                  +:+ +:+         +:+      #
-#  By: asulon <asulon@student.42nice.fr>         +#+  +:+       +#+         #
+#  By: asulon <asulon@student.42.fr>             +#+  +:+       +#+         #
 #                                              +#+#+#+#+#+   +#+            #
 #  Created: 2026/04/22 15:36:56 by asulon          #+#    #+#               #
-#  Updated: 2026/04/22 17:25:42 by asulon          ###   ########.fr        #
+#  Updated: 2026/05/04 18:57:00 by asulon          ###   ########.fr        #
 #                                                                           #
 # ************************************************************************* #
 
-from ex0.creature import Creature
+from ex0.Creature import Creature
 from .capabilities import HealCapability, TransformCapability
 
 
